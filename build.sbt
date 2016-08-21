@@ -5,6 +5,8 @@ import com.typesafe.sbt.SbtScalariform.ScalariformKeys
 
 name := "akka-ping-pong"
 
+mainClass := Some("PingPongAkkaApp")
+
 version := "1.0"
 
 scalaVersion := "2.11.8"
